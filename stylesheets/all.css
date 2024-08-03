@@ -32,6 +32,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-military: #848975;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -40,6 +41,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+  --bs-military-rgb: 132, 137, 117;
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
@@ -66,7 +68,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -3538,6 +3540,23 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
 }
 
+.btn-military {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #848975;
+  --bs-btn-border-color: #848975;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #969b8a;
+  --bs-btn-hover-border-color: #909583;
+  --bs-btn-focus-shadow-rgb: 112, 116, 99;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #9da191;
+  --bs-btn-active-border-color: #909583;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #848975;
+  --bs-btn-disabled-border-color: #848975;
+}
+
 .btn-outline-primary {
   --bs-btn-color: #0d6efd;
   --bs-btn-border-color: #0d6efd;
@@ -3671,6 +3690,23 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #212529;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #212529;
+  --bs-gradient: none;
+}
+
+.btn-outline-military {
+  --bs-btn-color: #848975;
+  --bs-btn-border-color: #848975;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #848975;
+  --bs-btn-hover-border-color: #848975;
+  --bs-btn-focus-shadow-rgb: 132, 137, 117;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #848975;
+  --bs-btn-active-border-color: #848975;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #848975;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #848975;
   --bs-gradient: none;
 }
 
@@ -4338,12 +4374,12 @@ textarea.form-control-lg {
   --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
   --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-  --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-active-color: #ffc107;
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
-  --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
-  --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-brand-color: #ffc107;
+  --bs-navbar-brand-hover-color: #ffc107;
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -5497,6 +5533,13 @@ textarea.form-control-lg {
   --bs-alert-link-color: var(--bs-dark-text-emphasis);
 }
 
+.alert-military {
+  --bs-alert-color: var(--bs-military-text-emphasis);
+  --bs-alert-bg: var(--bs-military-bg-subtle);
+  --bs-alert-border-color: var(--bs-military-border-subtle);
+  --bs-alert-link-color: var(--bs-military-text-emphasis);
+}
+
 @-webkit-keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -5942,6 +5985,19 @@ textarea.form-control-lg {
   --bs-list-group-active-color: var(--bs-dark-bg-subtle);
   --bs-list-group-active-bg: var(--bs-dark-text-emphasis);
   --bs-list-group-active-border-color: var(--bs-dark-text-emphasis);
+}
+
+.list-group-item-military {
+  --bs-list-group-color: var(--bs-military-text-emphasis);
+  --bs-list-group-bg: var(--bs-military-bg-subtle);
+  --bs-list-group-border-color: var(--bs-military-border-subtle);
+  --bs-list-group-action-hover-color: var(--bs-emphasis-color);
+  --bs-list-group-action-hover-bg: var(--bs-military-border-subtle);
+  --bs-list-group-action-active-color: var(--bs-emphasis-color);
+  --bs-list-group-action-active-bg: var(--bs-military-border-subtle);
+  --bs-list-group-active-color: var(--bs-military-bg-subtle);
+  --bs-list-group-active-bg: var(--bs-military-text-emphasis);
+  --bs-list-group-active-border-color: var(--bs-military-text-emphasis);
 }
 
 .btn-close {
@@ -7677,6 +7733,11 @@ textarea.form-control-lg {
   background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
+.text-bg-military {
+  color: #000 !important;
+  background-color: RGBA(var(--bs-military-rgb), var(--bs-bg-opacity, 1)) !important;
+}
+
 .link-primary {
   color: RGBA(var(--bs-primary-rgb), var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-primary-rgb), var(--bs-link-underline-opacity, 1)) !important;
@@ -7747,6 +7808,15 @@ textarea.form-control-lg {
 .link-dark:hover, .link-dark:focus {
   color: RGBA(26, 30, 33, var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(26, 30, 33, var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-military {
+  color: RGBA(var(--bs-military-rgb), var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(var(--bs-military-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+.link-military:hover, .link-military:focus {
+  color: RGBA(157, 161, 145, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(157, 161, 145, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-body-emphasis {
@@ -8220,6 +8290,10 @@ textarea.form-control-lg {
   --bs-focus-ring-color: rgba(var(--bs-dark-rgb), var(--bs-focus-ring-opacity));
 }
 
+.focus-ring-military {
+  --bs-focus-ring-color: rgba(var(--bs-military-rgb), var(--bs-focus-ring-opacity));
+}
+
 .position-static {
   position: static !important;
 }
@@ -8381,6 +8455,11 @@ textarea.form-control-lg {
 .border-dark {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
+}
+
+.border-military {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-military-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-black {
@@ -9418,6 +9497,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-military {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-military-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
@@ -9620,6 +9704,11 @@ textarea.form-control-lg {
   text-decoration-color: rgba(var(--bs-dark-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
+.link-underline-military {
+  --bs-link-underline-opacity: 1;
+  text-decoration-color: rgba(var(--bs-military-rgb), var(--bs-link-underline-opacity)) !important;
+}
+
 .link-underline {
   --bs-link-underline-opacity: 1;
   text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
@@ -9711,6 +9800,11 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-military {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-military-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -13338,4 +13432,58 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.strokeText {
+  position: relative;
+}
+
+.strokeText::before {
+  position: absolute;
+  z-index: -1;
+  -webkit-text-stroke: 6px white;
+  content: attr(data-storke);
+}
+
+.bg-Image {
+  background-image: url("../../images/lightpaperfibers.png");
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.overlay:hover {
+  opacity: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+.overlay-text {
+  position: absolute;
+  color: #fff;
+  top: 90%;
+  left: 10%;
+  -webkit-transform: translate(-10%, -90%);
+          transform: translate(-10%, -90%);
 }/*# sourceMappingURL=all.css.map */
