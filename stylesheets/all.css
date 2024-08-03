@@ -13474,6 +13474,7 @@ textarea.form-control-lg {
 }
 
 .overlay:hover {
+  border-radius: 20px;
   opacity: 1;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
@@ -13486,4 +13487,13 @@ textarea.form-control-lg {
   left: 10%;
   -webkit-transform: translate(-10%, -90%);
           transform: translate(-10%, -90%);
+}
+
+.btn-outline-egg-yellow {
+  border-color: #3A3A3A;
+  color: #3A3A3A;
+}
+
+.btn-outline-egg-yellow:hover {
+  background-color: #F9C745;
 }/*# sourceMappingURL=all.css.map */
