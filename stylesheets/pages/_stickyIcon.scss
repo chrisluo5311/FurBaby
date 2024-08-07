@@ -1,0 +1,44 @@
+#hover-custom {
+    display: none;
+}
+.sticky-info-icon {
+    position: fixed;
+    right: 50px;
+    bottom:0px;
+    z-index: 9999;
+    float: right;
+    &:hover {
+        #default-custom {
+            display: none;
+        }
+        #hover-custom {
+            display: block;
+        }
+    }
+}
+.msg-box {
+    position: relative;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.msg-box::after, .msg-box::before {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    pointer-events: none;
+}
+.msg-box::after {
+    border-color: rgba(255,255,255,0);
+    border-top-color: #ffffff;
+    border-width: 8px;
+    margin-left: -8px;
+}
+.msg-box::before {
+    border-color: rgba(0,0,0,0);
+    border-top-color: #000;
+    border-width: 11px;
+    margin-left: -11px;
+}

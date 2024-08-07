@@ -13594,6 +13594,15 @@ textarea.form-control-lg {
 
 #card-dog-back {
   display: none;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#card-dog-front {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #more-info {
@@ -13608,4 +13617,52 @@ textarea.form-control-lg {
 }
 .card:hover #more-info {
   color: #F9C745;
+}
+
+#hover-custom {
+  display: none;
+}
+
+.sticky-info-icon {
+  position: fixed;
+  right: 50px;
+  bottom: 0px;
+  z-index: 9999;
+  float: right;
+}
+.sticky-info-icon:hover #default-custom {
+  display: none;
+}
+.sticky-info-icon:hover #hover-custom {
+  display: block;
+}
+
+.msg-box {
+  position: relative;
+  background-color: #ffffff;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.msg-box::after, .msg-box::before {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: "";
+  pointer-events: none;
+}
+
+.msg-box::after {
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #ffffff;
+  border-width: 8px;
+  margin-left: -8px;
+}
+
+.msg-box::before {
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000;
+  border-width: 11px;
+  margin-left: -11px;
 }/*# sourceMappingURL=all.css.map */
