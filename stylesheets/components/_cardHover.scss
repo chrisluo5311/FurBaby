@@ -1,0 +1,17 @@
+#card-dog-back {
+    display:none;
+}
+#more-info {
+    color: black;
+}
+.card:hover {
+    #card-dog-back {
+        display:block;
+    }
+    #card-dog-front {
+        display: none;
+    }
+    #more-info {
+        color: #F9C745;
+    }
+}

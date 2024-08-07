@@ -9,6 +9,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        #hover-custom {
+            display: none;
+        }
+        .sticky-info-icon {
+            position: fixed;
+            right: 50px;
+            bottom:0px;
+            z-index: 9999;
+            float: right;
+            &:hover {
+                #default-custom {
+                    display: none;
+                }
+                #hover-custom {
+                    display: block;
+                }
+            }
+        }
+        .msg-box {
+            position: relative;
+            background-color: #ffffff;
+            border: 2px solid #000;
+            border-radius: 10px;
+        }
+        .msg-box::after, .msg-box::before {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            border: solid transparent;
+            content: "";
+            pointer-events: none;
+        }
+        .msg-box::after {
+            border-color: rgba(255,255,255,0);
+            border-top-color: #ffffff;
+            border-width: 8px;
+            margin-left: -8px;
+        }
+        .msg-box::before {
+            border-color: rgba(0,0,0,0);
+            border-top-color: #000;
+            border-width: 11px;
+            margin-left: -11px;
+        }
+    </style>
 </head>
 <body class="bg-Image">
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-4 py-3 sticky-top">
@@ -50,6 +96,14 @@
             <h1 class="strokeText display-4 kalam-bold text-military mb-0 text-nowrap" data-storke="Full of fur. Full of love">Full of fur. Full of love</h1>
         </div>
     </picture>
+
+    <div class="sticky-info-icon d-none d-md-block">
+        <div class="msg-box px-3 py-2 mb-3">
+            客製我的毛孩圖
+        </div>
+        <img src="./images/btn.png" id="default-custom" alt="">
+        <img src="./images/btn2.png" id="hover-custom" alt="">
+    </div>
 
     <section class="p-md-4 mt-5">
         <div class="container">
@@ -152,34 +206,37 @@
             <ul class="row row-cols-1 row-cols-lg-3 g-3 g-lg-4 list-unstyled mb-5">
                 <li class="col">
                     <div class="card shadow h-100" style="border-radius: 1rem;overflow: hidden;">
-                        <img src="./images/dog01.png" class="mb-3" alt="" >
+                        <div class="mb-3" id="card-dog-back" style="width: auto;height: 424px;background-image: url(./images/dog01-hover.png);"></div>
+                        <div class="mb-3" id="card-dog-front" style="width: auto;height: 424px;background-image: url(./images/dog01.png);"></div>
                         <div class="card-body mx-3">
                             <h5 class="card-title">等家中-華仔</h5>
                             <p class="card-text lh-base mb-lg-0 overflow-hidden"  style="height: 4.5rem;">目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...</p>
                             <hr class="">
-                            <a href="#" class="text-dark kalam-bold stretched-link text-decoration-none d-flex justify-content-center">MORE</a>
+                            <a href="#" id="more-info" class="kalam-bold stretched-link text-decoration-none d-flex justify-content-center">MORE</a>
                         </div>
                     </div>
                 </li>
                 <li class="col">
                     <div class="card shadow h-100" style="border-radius: 1rem;overflow: hidden;">
-                        <img src="./images/04.png" class="mb-3" alt="" >
+                        <div class="mb-3" id="card-dog-back" style="width: auto;height: 424px;background-image: url(./images/dog02-hover.png);"></div>
+                        <div class="mb-3" id="card-dog-front" style="width: auto;height: 424px;background-image: url(./images/04.png);"></div>
                         <div class="card-body mx-3">
                             <h5 class="card-title">等家中-小呆</h5>
                             <p class="card-text lh-base mb-lg-0 overflow-hidden" style="height: 4.5rem;">小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...</p>
                             <hr class="">
-                            <a href="#" class="text-dark kalam-bold stretched-link text-decoration-none d-flex justify-content-center">MORE</a>
+                            <a href="#" id="more-info" class="kalam-bold stretched-link text-decoration-none d-flex justify-content-center">MORE</a>
                         </div>
                     </div>
                 </li>
                 <li class="col">
                     <div class="card shadow h-100" style="border-radius: 1rem;overflow: hidden;">
-                        <img src="./images/08.png" class="mb-3" alt="" >
+                        <div class="mb-3" id="card-dog-back" style="width: auto;height: 424px;background-image: url(./images/dog03-hover.png);"></div>
+                        <div class="mb-3" id="card-dog-front" style="width: auto;height: 424px;background-image: url(./images/08.png);"></div>
                         <div class="card-body mx-3">
                             <h5 class="card-title">等家中-Snow</h5>
                             <p class="card-text lh-base mb-lg-0 overflow-hidden" style="height: 4.5rem;">看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...</p>
                             <hr class="">
-                            <a href="#" class="text-dark kalam-bold stretched-link text-decoration-none d-flex justify-content-center">MORE</a>
+                            <a href="#" id="more-info" class="kalam-bold stretched-link text-decoration-none d-flex justify-content-center">MORE</a>
                         </div>
                     </div>
                 </li>
@@ -190,9 +247,13 @@
             </div>
         </div>
     </section>
+
+    <script>
+        const sticky_icon = document.querySelector('.sticky-info-icon');
+    </script>
 </main>
 
-<footer class="border-top border-3 border-warning pt-2">
+<footer class="border-top border-3 border-egg-yellow pt-2">
     <section class="py-5">
         <div class="container">
             <div class="row justify-content-center">
