@@ -13690,6 +13690,21 @@ textarea.form-control-lg {
   height: 339px;
 }
 
+.adopt-page-item {
+  margin: 10px;
+}
+
+.adopt-page-link {
+  text-decoration: none;
+  color: #3A3A3A;
+}
+.adopt-page-link.active {
+  color: #F9C745;
+}
+.adopt-page-link:hover {
+  color: #F9C745;
+}
+
 .kalam-regular {
   font-family: "Kalam", cursive;
   font-weight: 400;

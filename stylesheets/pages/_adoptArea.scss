@@ -1,0 +1,13 @@
+.adopt-page-item {
+    margin: 10px;
+}
+.adopt-page-link {
+    text-decoration: none;
+    color: #3A3A3A;
+    &.active {
+        color: $egg-yellow;
+    }
+    &:hover {
+        color: $egg-yellow;
+    }
+}
