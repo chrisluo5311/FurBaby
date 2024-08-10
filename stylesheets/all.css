@@ -13619,6 +13619,12 @@ textarea.form-control-lg {
   color: #F9C745;
 }
 
+.service-card-bg {
+  border: 0;
+  background-color: transparent;
+  height: 339px;
+}
+
 #hover-custom {
   display: none;
 }
@@ -13665,4 +13671,10 @@ textarea.form-control-lg {
   border-top-color: #000;
   border-width: 11px;
   margin-left: -11px;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=all.css.map */
