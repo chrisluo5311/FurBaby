@@ -1,8 +1,5 @@
 .strokeText{
     position: relative;
-}
-
-.strokeText{
     &::before {
         position: absolute;
         z-index: -1;
@@ -14,6 +11,7 @@
 #hover-custom {
     display: none;
 }
+
 .sticky-info-icon {
     position: fixed;
     right: 50px;

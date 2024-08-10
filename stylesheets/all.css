@@ -4408,7 +4408,7 @@ textarea.form-control-lg {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
-  --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+  --bs-navbar-hover-color: rgba(249, 199, 69, 0.8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: #f9c745;
   --bs-navbar-brand-padding-y: 0.3125rem;
@@ -13596,7 +13596,6 @@ textarea.form-control-lg {
 .strokeText {
   position: relative;
 }
-
 .strokeText::before {
   position: absolute;
   z-index: -1;
@@ -13656,12 +13655,11 @@ textarea.form-control-lg {
   display: inline;
   margin: 5px;
 }
-
-.sidebar-link {
+.sidebar .sidebar-link {
   color: black;
   text-decoration: none;
 }
-.sidebar-link:hover {
+.sidebar .sidebar-link:hover {
   color: #F9C745;
 }
 
@@ -13673,14 +13671,14 @@ textarea.form-control-lg {
     margin-right: 0;
     margin-bottom: 16px;
   }
-  .sidebar-link {
+  .sidebar .sidebar-link {
     color: black;
     text-decoration: none;
   }
-  .sidebar-link:hover {
+  .sidebar .sidebar-link:hover {
     color: #F9C745;
   }
-  .sidebar-link:hover:before {
+  .sidebar .sidebar-link:hover:before {
     content: "-";
     color: #F9C745;
     margin-right: 13px;
