@@ -13527,18 +13527,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.kalam-regular {
-  font-family: "Kalam", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.kalam-bold {
-  font-family: "Kalam", cursive;
-  font-weight: 700;
-  font-style: normal;
-}
-
 .strokeText {
   position: relative;
 }
@@ -13625,6 +13613,40 @@ textarea.form-control-lg {
   height: 339px;
 }
 
+.sidebar {
+  display: inline;
+  margin: 5px;
+}
+
+.sidebar-link {
+  color: black;
+  text-decoration: none;
+}
+.sidebar-link:hover {
+  color: #F9C745;
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .sidebar-link {
+    color: black;
+    text-decoration: none;
+  }
+  .sidebar-link:hover {
+    color: #F9C745;
+  }
+  .sidebar-link:hover:before {
+    content: "-";
+    color: #F9C745;
+    margin-right: 13px;
+  }
+}
 #hover-custom {
   display: none;
 }
@@ -13671,6 +13693,18 @@ textarea.form-control-lg {
   border-top-color: #000;
   border-width: 11px;
   margin-left: -11px;
+}
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .bg-cover {
