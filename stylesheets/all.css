@@ -13695,6 +13695,10 @@ textarea.form-control-lg {
 }
 
 .adopt-page-link {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: larger;
   text-decoration: none;
   color: #3A3A3A;
 }
@@ -13703,6 +13707,11 @@ textarea.form-control-lg {
 }
 .adopt-page-link:hover {
   color: #F9C745;
+}
+@media (min-width: 992px) {
+  .adopt-page-link {
+    font-size: medium;
+  }
 }
 
 .kalam-regular {
