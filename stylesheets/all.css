@@ -13527,17 +13527,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.strokeText {
-  position: relative;
-}
-
-.strokeText::before {
-  position: absolute;
-  z-index: -1;
-  -webkit-text-stroke: 6px white;
-  content: attr(data-storke);
-}
-
 .bg-Image {
   background-image: url("../../images/lightpaperfibers.png");
 }
@@ -13554,15 +13543,13 @@ textarea.form-control-lg {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-
 .overlay:hover {
   border-radius: 20px;
   opacity: 1;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 }
-
-.overlay-text {
+.overlay .overlay-text {
   position: absolute;
   color: #fff;
   top: 90%;
@@ -13575,7 +13562,6 @@ textarea.form-control-lg {
   border-color: #3A3A3A;
   color: #3A3A3A;
 }
-
 .btn-outline-egg-yellow:hover {
   background-color: var(#F9C745);
 }
@@ -13607,46 +13593,17 @@ textarea.form-control-lg {
   color: #F9C745;
 }
 
-.service-card-bg {
-  border: 0;
-  background-color: transparent;
-  height: 339px;
+.strokeText {
+  position: relative;
 }
 
-.sidebar {
-  display: inline;
-  margin: 5px;
+.strokeText::before {
+  position: absolute;
+  z-index: -1;
+  -webkit-text-stroke: 6px white;
+  content: attr(data-storke);
 }
 
-.sidebar-link {
-  color: black;
-  text-decoration: none;
-}
-.sidebar-link:hover {
-  color: #F9C745;
-}
-
-@media (min-width: 992px) {
-  .sidebar {
-    display: block;
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 16px;
-  }
-  .sidebar-link {
-    color: black;
-    text-decoration: none;
-  }
-  .sidebar-link:hover {
-    color: #F9C745;
-  }
-  .sidebar-link:hover:before {
-    content: "-";
-    color: #F9C745;
-    margin-right: 13px;
-  }
-}
 #hover-custom {
   display: none;
 }
@@ -13695,6 +13652,46 @@ textarea.form-control-lg {
   margin-left: -11px;
 }
 
+.sidebar {
+  display: inline;
+  margin: 5px;
+}
+
+.sidebar-link {
+  color: black;
+  text-decoration: none;
+}
+.sidebar-link:hover {
+  color: #F9C745;
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .sidebar-link {
+    color: black;
+    text-decoration: none;
+  }
+  .sidebar-link:hover {
+    color: #F9C745;
+  }
+  .sidebar-link:hover:before {
+    content: "-";
+    color: #F9C745;
+    margin-right: 13px;
+  }
+}
+.service-card-bg {
+  border: 0;
+  background-color: transparent;
+  height: 339px;
+}
+
 .kalam-regular {
   font-family: "Kalam", cursive;
   font-weight: 400;
@@ -13711,4 +13708,9 @@ textarea.form-control-lg {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+#buyerInfoBtn:hover {
+  -webkit-box-shadow: 0px 3px;
+          box-shadow: 0px 3px;
 }/*# sourceMappingURL=all.css.map */

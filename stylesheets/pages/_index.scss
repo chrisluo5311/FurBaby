@@ -1,3 +1,16 @@
+.strokeText{
+    position: relative;
+}
+
+.strokeText{
+    &::before {
+        position: absolute;
+        z-index: -1;
+        -webkit-text-stroke: 6px white;
+        content: attr(data-storke);
+    }
+}
+
 #hover-custom {
     display: none;
 }

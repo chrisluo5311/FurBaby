@@ -1,7 +1,7 @@
 .btn-outline-egg-yellow {
     border-color: #3A3A3A;
     color: #3A3A3A;
-}
-.btn-outline-egg-yellow:hover{
-    background-color: var($egg-yellow);
+    &:hover {
+        background-color: var($egg-yellow);
+    }
 }
