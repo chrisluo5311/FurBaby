@@ -13563,23 +13563,20 @@ textarea.form-control-lg {
   color: #3A3A3A;
 }
 .btn-outline-egg-yellow:hover {
-  background-color: var(#F9C745);
+  background-color: #F9C745;
 }
 .btn-outline-egg-yellow.active {
   background-color: #F9C745;
 }
 
-#card-dog-back {
-  display: none;
+#card-dog-back, #card-dog-front {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#card-dog-front {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+#card-dog-back {
+  display: none;
 }
 
 #more-info {
