@@ -4,4 +4,7 @@
     &:hover {
         background-color: var($egg-yellow);
     }
+    &.active {
+        background-color: $egg-yellow;
+    }
 }

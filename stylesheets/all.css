@@ -13565,6 +13565,9 @@ textarea.form-control-lg {
 .btn-outline-egg-yellow:hover {
   background-color: var(#F9C745);
 }
+.btn-outline-egg-yellow.active {
+  background-color: #F9C745;
+}
 
 #card-dog-back {
   display: none;
