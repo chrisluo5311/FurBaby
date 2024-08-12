@@ -22,12 +22,22 @@ See at : [FurBaby](https://chrisluo5311.github.io/FurBaby/index.html)
  <h2 ><img src="https://img.icons8.com/?size=20&id=33830&format=png&color=38B7BD"/> &nbspContent Preview: </h2>
 
 - Home page (首頁):
+ <img src="https://github.com/chrisluo5311/FurBaby/blob/master/images/screenshots/home1.jpg"/>
+ <img src="https://github.com/chrisluo5311/FurBaby/blob/master/images/screenshots/home2.jpg"/>
+ <img src="https://github.com/chrisluo5311/FurBaby/blob/master/images/screenshots/home3.jpg"/>
 
 - Service Introduction (服務介紹):
+ <img src="https://github.com/chrisluo5311/FurBaby/blob/master/images/screenshots/service.jpg"/>
 
 - Design Works (設計作品):
+ <img src="https://github.com/chrisluo5311/FurBaby/blob/master/images/screenshots/designWorks.jpg" />
 
 - Adoption Area (領養專區):
+ <img src="https://github.com/chrisluo5311/FurBaby/blob/master/images/screenshots/adoptArea.jpg" />
+
+- Animal Story (領養專區-動物介紹):
+ <img src="https://github.com/chrisluo5311/FurBaby/blob/master/images/screenshots/story.jpg" />
 
 - Payment (毛孩似顏繪):
+ <img src="https://github.com/chrisluo5311/FurBaby/blob/master/images/screenshots/payment.jpg" />
 
