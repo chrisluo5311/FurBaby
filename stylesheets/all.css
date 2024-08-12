@@ -13531,6 +13531,29 @@ textarea.form-control-lg {
   background-image: url(../../images/lightpaperfibers.png);
 }
 
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#buyerInfoBtn:hover {
+  -webkit-box-shadow: 0px 3px;
+          box-shadow: 0px 3px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -13712,27 +13735,4 @@ textarea.form-control-lg {
   .adopt-page-link {
     font-size: medium;
   }
-}
-
-.kalam-regular {
-  font-family: "Kalam", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.kalam-bold {
-  font-family: "Kalam", cursive;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.bg-cover {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-#buyerInfoBtn:hover {
-  -webkit-box-shadow: 0px 3px;
-          box-shadow: 0px 3px;
 }/*# sourceMappingURL=all.css.map */
