@@ -13616,6 +13616,10 @@ textarea.form-control-lg {
   color: #F9C745;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 .strokeText {
   position: relative;
 }
