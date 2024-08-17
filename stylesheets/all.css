@@ -13549,7 +13549,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
 }
 
-#buyerInfoBtn:hover {
+.buyerInfoBtn:hover {
   -webkit-box-shadow: 0px 3px;
           box-shadow: 0px 3px;
 }
@@ -13592,27 +13592,27 @@ textarea.form-control-lg {
   background-color: #F9C745;
 }
 
-#card-dog-back, #card-dog-front {
+.card-dog-back, .card-dog-front {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#card-dog-back {
+.card-dog-back {
   display: none;
 }
 
-#more-info {
+.more-info {
   color: black;
 }
 
-.card:hover #card-dog-back {
+.card:hover .card-dog-back {
   display: block;
 }
-.card:hover #card-dog-front {
+.card:hover .card-dog-front {
   display: none;
 }
-.card:hover #more-info {
+.card:hover .more-info {
   color: #F9C745;
 }
 
@@ -13626,7 +13626,7 @@ textarea.form-control-lg {
   content: attr(data-storke);
 }
 
-#hover-custom {
+.hover-custom {
   display: none;
 }
 
@@ -13637,10 +13637,10 @@ textarea.form-control-lg {
   z-index: 9999;
   float: right;
 }
-.sticky-info-icon:hover #default-custom {
+.sticky-info-icon:hover .default-custom {
   display: none;
 }
-.sticky-info-icon:hover #hover-custom {
+.sticky-info-icon:hover .hover-custom {
   display: block;
 }
 

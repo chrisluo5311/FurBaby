@@ -8,7 +8,7 @@
     }
 }
 
-#hover-custom {
+.hover-custom {
     display: none;
 }
 
@@ -19,10 +19,10 @@
     z-index: 9999;
     float: right;
     &:hover {
-        #default-custom {
+        .default-custom {
             display: none;
         }
-        #hover-custom {
+        .hover-custom {
             display: block;
         }
     }

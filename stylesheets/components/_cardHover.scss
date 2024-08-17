@@ -1,24 +1,24 @@
-#card-dog-back, #card-dog-front {
+.card-dog-back, .card-dog-front {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-#card-dog-back {
+.card-dog-back {
     display: none;
 }
 
-#more-info {
+.more-info {
     color: black;
 }
 .card:hover {
-    #card-dog-back {
+    .card-dog-back {
         display:block;
     }
-    #card-dog-front {
+    .card-dog-front {
         display: none;
     }
-    #more-info {
+    .more-info {
         color: #F9C745;
     }
 }
