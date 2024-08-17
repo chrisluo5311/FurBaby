@@ -13739,6 +13739,26 @@ footer {
   height: 339px;
 }
 
+.banner-normal {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 288px;
+}
+.banner-sm {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 215px;
+}
+
+.step-width-normal {
+  width: 203px;
+  max-width: 100%;
+}
+.step-width-sm {
+  width: 100px;
+  max-width: 100%;
+}
+
 body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
