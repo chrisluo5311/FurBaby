@@ -1,13 +1,17 @@
+.card-adopt {
+    border-radius: 1rem;
+    overflow: hidden;
+}
 .card-dog-back, .card-dog-front {
+    width: auto;
+    height: 424px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
-
 .card-dog-back {
     display: none;
 }
-
 .more-info {
     color: black;
 }

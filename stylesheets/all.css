@@ -13543,6 +13543,13 @@ textarea.form-control-lg {
   font-style: normal;
 }
 
+.text-spacing-tight {
+  letter-spacing: 1.5px;
+}
+.text-spacing-normal {
+  letter-spacing: 2px;
+}
+
 .bg-cover {
   background-size: cover;
   background-position: center center;
@@ -13552,6 +13559,10 @@ textarea.form-control-lg {
 .buyerInfoBtn:hover {
   -webkit-box-shadow: 0px 3px;
           box-shadow: 0px 3px;
+}
+
+.letter-space {
+  letter-spacing: 2px;
 }
 
 .overlay {
@@ -13592,7 +13603,14 @@ textarea.form-control-lg {
   background-color: #F9C745;
 }
 
+.card-adopt {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
 .card-dog-back, .card-dog-front {
+  width: auto;
+  height: 424px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

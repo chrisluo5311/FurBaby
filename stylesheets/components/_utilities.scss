@@ -11,6 +11,14 @@
     font-weight: 700;
     font-style: normal;
 }
+.text-spacing {
+    &-tight {
+        letter-spacing: 1.5px;
+    }
+    &-normal {
+        letter-spacing: 2px;
+    }
+}
 .bg-cover {
     background-size: cover;
     background-position: center center;
@@ -18,4 +26,7 @@
 }
 .buyerInfoBtn:hover {
     box-shadow: 0px 3px;
+}
+.letter-space {
+    letter-spacing: 2px;
 }
