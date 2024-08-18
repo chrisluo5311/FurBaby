@@ -1,53 +1,8 @@
 .bg-Image{
     background-image: url(../images/index/lightpaperfibers.png);
 }
-.copyRight-bg-Image {
-    background-color: #3A3A3A;
-}
-.kalam-regular {
-    font-family: "Kalam", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-.kalam-bold {
-    font-family: "Kalam", cursive;
-    font-weight: 700;
-    font-style: normal;
-}
-.text-spacing {
-    &-tight {
-        letter-spacing: 1.5px;
-    }
-    &-normal {
-        letter-spacing: 2px;
-    }
-}
 .bg-cover {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-}
-.buyerInfoBtn:hover {
-    box-shadow: 0px 3px;
-}
-.letter-space {
-    letter-spacing: 2px;
-}
-.fur-banner {
-    &-normal {
-        object-fit: cover;
-        height: 288px;
-    }
-    &-sm {
-        object-fit: cover;
-        height: 215px;
-    }
-}
-.area-work-banner {
-    &-normal {
-        height: 133.75px;
-    }
-    &-sm {
-        height: 80px;
-    }
 }

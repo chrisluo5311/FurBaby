@@ -13527,14 +13527,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.bg-Image {
-  background-image: url(../images/index/lightpaperfibers.png);
-}
-
-.copyRight-bg-Image {
-  background-color: #3A3A3A;
-}
-
 .kalam-regular {
   font-family: "Kalam", cursive;
   font-weight: 400;
@@ -13554,64 +13546,14 @@ textarea.form-control-lg {
   letter-spacing: 2px;
 }
 
+.bg-Image {
+  background-image: url(../images/index/lightpaperfibers.png);
+}
+
 .bg-cover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-}
-
-.buyerInfoBtn:hover {
-  -webkit-box-shadow: 0px 3px;
-          box-shadow: 0px 3px;
-}
-
-.letter-space {
-  letter-spacing: 2px;
-}
-
-.fur-banner-normal {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 288px;
-}
-.fur-banner-sm {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 215px;
-}
-
-.area-work-banner-normal {
-  height: 133.75px;
-}
-.area-work-banner-sm {
-  height: 80px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-.overlay:hover {
-  border-radius: 20px;
-  opacity: 1;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-}
-.overlay .overlay-text {
-  position: absolute;
-  color: #fff;
-  top: 90%;
-  left: 10%;
-  -webkit-transform: translate(-10%, -90%);
-          transform: translate(-10%, -90%);
 }
 
 .btn-outline-egg-yellow {
@@ -13654,6 +13596,60 @@ textarea.form-control-lg {
 }
 .card:hover .more-info {
   color: #F9C745;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.overlay:hover {
+  border-radius: 20px;
+  opacity: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+.overlay .overlay-text {
+  position: absolute;
+  color: #fff;
+  top: 90%;
+  left: 10%;
+  -webkit-transform: translate(-10%, -90%);
+          transform: translate(-10%, -90%);
+}
+
+.fur-banner-normal {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 288px;
+}
+.fur-banner-sm {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 215px;
+}
+
+.area-work-banner-normal {
+  height: 133.75px;
+}
+.area-work-banner-sm {
+  height: 80px;
+}
+
+.buyerInfoBtn:hover {
+  -webkit-box-shadow: 0px 3px;
+          box-shadow: 0px 3px;
+}
+
+.copyRight-bg-Image {
+  background-color: #3A3A3A;
 }
 
 .strokeText {
@@ -13751,12 +13747,6 @@ footer {
     margin-right: 13px;
   }
 }
-.service-card-bg {
-  border: 0;
-  background-color: transparent;
-  height: 339px;
-}
-
 .step-width-normal {
   width: 203px;
   max-width: 100%;
