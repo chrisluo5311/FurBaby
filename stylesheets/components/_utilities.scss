@@ -33,3 +33,21 @@
 .letter-space {
     letter-spacing: 2px;
 }
+.fur-banner {
+    &-normal {
+        object-fit: cover;
+        height: 288px;
+    }
+    &-sm {
+        object-fit: cover;
+        height: 215px;
+    }
+}
+.area-work-banner {
+    &-normal {
+        height: 133.75px;
+    }
+    &-sm {
+        height: 80px;
+    }
+}

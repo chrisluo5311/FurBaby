@@ -13569,6 +13569,24 @@ textarea.form-control-lg {
   letter-spacing: 2px;
 }
 
+.fur-banner-normal {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 288px;
+}
+.fur-banner-sm {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 215px;
+}
+
+.area-work-banner-normal {
+  height: 133.75px;
+}
+.area-work-banner-sm {
+  height: 80px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -13739,17 +13757,6 @@ footer {
   height: 339px;
 }
 
-.banner-normal {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 288px;
-}
-.banner-sm {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 215px;
-}
-
 .step-width-normal {
   width: 203px;
   max-width: 100%;
@@ -13788,4 +13795,10 @@ body {
   .adopt-page-link {
     font-size: medium;
   }
+}
+
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+  color: #3A3A3A;
 }/*# sourceMappingURL=all.css.map */

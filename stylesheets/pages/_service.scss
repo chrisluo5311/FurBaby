@@ -3,16 +3,6 @@
     background-color: transparent;
     height: 339px;
 }
-.banner {
-    &-normal {
-        object-fit: cover;
-        height: 288px;
-    }
-    &-sm {
-        object-fit: cover;
-        height: 215px;
-    }
-}
 .step-width {
     &-normal {
         width: 203px;
