@@ -15,7 +15,7 @@ See at : [FurBaby](https://chrisluo5311.github.io/FurBaby/index.html)
 
  <h2 ><img src="https://img.icons8.com/office/20/000000/training.png"/> &nbspProject Introduction: </h2>
 
- #### "FurBaby" is a responsive web page featuring a lot of functions. Built with Bootstrap 5 and Sass, it offers a seamless and responsive user experience across different devices.
+ #### "FurBaby" is a responsive web page built with Bootstrap 5 and Sass, offering a seamless and responsive user experience across different devices.
 
  ---
 
